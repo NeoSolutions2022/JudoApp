@@ -1,4 +1,5 @@
 .fvm/flutter_sdk
+.core/utils/api.dart
 # Miscellaneous
 *.class
 *.log
