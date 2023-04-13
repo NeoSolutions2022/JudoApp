@@ -5,6 +5,7 @@ import '../color/color.dart';
 
 class Style {
   static final ThemeData light = ThemeData(
+    scaffoldBackgroundColor: backgroundColor,
     brightness: Brightness.light,
     appBarTheme: const AppBarTheme(
       systemOverlayStyle: SystemUiOverlayStyle.dark,

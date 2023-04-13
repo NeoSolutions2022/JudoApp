@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 //light theme
+const backgroundColor = Color(0xFFFFFFFF);
 const lightPrimaryColor = Color(0xFF1E1E1E);
 const lightAccentColor = Color(0xFF1E5185);
 

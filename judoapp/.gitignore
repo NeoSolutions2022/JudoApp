@@ -1,6 +1,6 @@
 .fvm/flutter_sdk
 
-.lib/app/core/utils/api.dart
+lib/app/core/utils/api.dart
 
 # Miscellaneous
 *.class
