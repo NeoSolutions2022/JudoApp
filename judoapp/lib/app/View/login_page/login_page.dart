@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:judoapp/app/View/login_page/widgets/ElevatedButton/elevated_button_login.dart';
 
 import 'package:judoapp/app/View_Model/View_Model.dart';
 
@@ -18,8 +19,8 @@ class LoginPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const FittedBox(
+          children: const [
+            FittedBox(
               fit: BoxFit.fitWidth,
               child: Text(
                 'Entrar',
@@ -29,11 +30,8 @@ class LoginPage extends StatelessWidget {
                 ),
               ),
             ),
-            const TextFormFields(),
-            ElevatedButton(
-              onPressed: () {},
-              child: Text('oi'),
-            ),
+            TextFormFields(),
+            CustomElevatedButton(),
           ],
         ),
       ),
