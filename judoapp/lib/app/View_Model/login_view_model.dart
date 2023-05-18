@@ -13,10 +13,17 @@ class LoginViewModel with ChangeNotifier {
 
   bool obscureText = true;
 
+  bool _loading = false;
+
   GlobalKey get loginGlobalKey => _loginGlobalKey;
 
   void changeObscureText() {
     obscureText = !obscureText;
+    notifyListeners();
+  }
+
+  void setLoading(bool loading) async {
+    loading = _loading;
     notifyListeners();
   }
 }
