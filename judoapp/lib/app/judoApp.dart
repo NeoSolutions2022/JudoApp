@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:judoapp/app/config/style/style.dart';
-import 'package:judoapp/app/screens/login_page/login_page.dart';
+import 'package:judoapp/app/View/login_page/login_page.dart';
 
 class JudoApp extends StatelessWidget {
   const JudoApp({super.key});

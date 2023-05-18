@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
-import '../../../../core/providers/provider.dart';
+import 'package:judoapp/app/View_Model/View_Model.dart';
+
+import 'package:provider/provider.dart';
 
 class TextFormFieldPassword extends StatelessWidget {
   const TextFormFieldPassword({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Consumer<LoginPageProvider>(
+    return Consumer<LoginViewModel>(
       builder: (context, value, child) => TextFormField(
-        controller: LoginPageProvider.controllerPassword,
+        controller: value.controllerPassword,
         obscureText: value.obscureText,
         decoration: InputDecoration(
           suffixIcon: InkWell(
