@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class InitialController {
+class AppControlller {
   final TextEditingController _usrLogin = TextEditingController();
 
   final TextEditingController _usrSecret = TextEditingController();

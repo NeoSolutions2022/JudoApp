@@ -9,7 +9,7 @@ class CustomAlertDialog {
   static dialogLoginBuilder(
       {String textAlertDialog = 'AlertDialog sem texto'}) {
     showDialog(
-      context: locator<InitialController>().loginGlobalKey.currentContext!,
+      context: locator<AppControlller>().loginGlobalKey.currentContext!,
       builder: (context) => AlertDialog(
         alignment: Alignment.center,
         content: Text(

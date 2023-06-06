@@ -5,12 +5,12 @@ import 'package:judoapp/app/core/utils/locator.dart';
 
 class LoginViewModel with ChangeNotifier {
   final TextEditingController controllerUser =
-      locator<InitialController>().usrLogin;
+      locator<AppControlller>().usrLogin;
 
   final TextEditingController controllerPassword =
-      locator<InitialController>().usrSecret;
+      locator<AppControlller>().usrSecret;
 
-  final GlobalKey _loginGlobalKey = locator<InitialController>().loginGlobalKey;
+  final GlobalKey _loginGlobalKey = locator<AppControlller>().loginGlobalKey;
 
   bool obscureText = true;
 

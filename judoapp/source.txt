@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=VXGhzZ2XsqI
+Para fazer widget que gire como um cartao
+
+https://medium.com/flutter-community/flutter-flip-card-animation-eb25c403f371

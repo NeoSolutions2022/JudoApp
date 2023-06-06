@@ -6,6 +6,6 @@ import 'package:get_it/get_it.dart';
 var locator = GetIt.instance;
 
 void setupLocator() {
-  locator.registerLazySingleton(() => InitialController());
+  locator.registerLazySingleton(() => AppControlller());
   locator.registerLazySingleton(() => LoginViewModel());
 }
